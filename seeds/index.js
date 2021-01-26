@@ -4,7 +4,7 @@ const { places, descriptors } = require(`./seedHelpers`);
 const Campground = require("../models/campground");
 const axios = require("axios").default;
 
-mongoose.connect("mongodb://localhost:27017/yelp-camp", {
+mongoose.connect("mongodb+srv://our-first-user:3VKSIVoTJ9iXM0mh@cluster0.mg4rs.mongodb.net/<dbname>?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useCreateIndex: true,
   useUnifiedTopology: true,
