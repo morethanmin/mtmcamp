@@ -8,7 +8,7 @@ Node JS를 배우며 진행한 첫 개인 토이프로젝트 입니다. Camping 
 
 - Map Box 를 이용한 Cluster Map
 
-![image](https://user-images.githubusercontent.com/72514247/105835931-dc326c00-600f-11eb-98a0-df8c31d553fd.png)
+![image](https://user-images.githubusercontent.com/72514247/105853932-96829d00-6029-11eb-872e-40cd8e44c8a3.png)
 
 - Login, Logout session
 - CRUD 구현 (Restful api)
