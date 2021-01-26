@@ -11,6 +11,7 @@ Node JS를 배우며 진행한 첫 개인 토이프로젝트 입니다. Camping 
 ![image](https://user-images.githubusercontent.com/72514247/105853932-96829d00-6029-11eb-872e-40cd8e44c8a3.png)
 
 - Login, Logout session
+- Search 기능 구현
 - CRUD 구현 (Restful api)
 - cloudinary를 이용한 image upload
 - user 게시글 작성, 수정 및 삭제 권한 부여
