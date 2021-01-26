@@ -13,6 +13,11 @@ module.exports.renderNewForm = (req, res) => {
   res.render("campgrounds/new");
 };
 
+module.exports.searchCampground = async (req,res) => {
+  const campgrounds = await Campground.find({title : { "$regex": req.query.title, "$options": "i" }});
+  res.render("campgrounds/index", { campgrounds });
+}
+
 module.exports.createCampground = async (req, res, next) => {
   const geoData = await geocoder
     .forwardGeocode({
@@ -82,3 +87,5 @@ module.exports.deleteCampground = async (req, res) => {
   req.flash("success", "Successfully deleted campground!");
   res.redirect("/campgrounds");
 };
+
+
