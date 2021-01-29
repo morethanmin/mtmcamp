@@ -30,9 +30,16 @@
         <p class="card-text">
           <small><%= campground.location %></small>
         </p>
-        <a class="btn btn-primary" href="campgrounds/<%= campground._id %> "
-          >View <%= campground.title %>
-        </a>
+        <% if(isSearched) { %> 
+          <a class="btn btn-primary" href="<%= campground._id %> "
+            >View <%= campground.title %>
+          </a>
+          <% } else { %>
+            <a class="btn btn-primary" href="campgrounds/<%= campground._id %> "
+              >View <%= campground.title %>
+            </a>
+            <% } %>  
+          
       </div>
     </div>
   </div>

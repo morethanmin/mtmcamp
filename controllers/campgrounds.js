@@ -6,7 +6,8 @@ const { cloudinary } = require("../cloudinary");
 
 module.exports.index = async (req, res) => {
   const campgrounds = await Campground.find({});
-  res.render("campgrounds/index", { campgrounds });
+  const isSearched = false
+  res.render("campgrounds/index", { campgrounds,isSearched });
 };
 
 module.exports.renderNewForm = (req, res) => {
@@ -14,8 +15,12 @@ module.exports.renderNewForm = (req, res) => {
 };
 
 module.exports.searchCampground = async (req,res) => {
+  if(!req.query.title)
+  res.redirect("/campgrounds")
   const campgrounds = await Campground.find({title : { "$regex": req.query.title, "$options": "i" }});
-  res.render("campgrounds/index", { campgrounds });
+
+  const isSearched = true
+  res.render("campgrounds/index", { campgrounds, isSearched });
 }
 
 module.exports.createCampground = async (req, res, next) => {
