@@ -1,5 +1,5 @@
 # MTMCamp
-Node JS를 배우며 진행한 첫 개인 토이프로젝트 입니다. Camping Site Sharing ,Review site를 목적으로 제작되었습니다. 프론트부터 백엔드까지, 그리고 DB와 간단한 Security와 Error handling, 배포까지 전부 다루며 진행하였습니다.
+Express를 배우며 진행한 첫 개인 토이프로젝트 입니다. Camping Site Sharing ,Review site를 목적으로 제작되었습니다. 프론트부터 백엔드까지, 그리고 DB와 간단한 Security와 Error handling, 배포까지 전부 다루며 진행하였습니다.
 
 ![image](https://user-images.githubusercontent.com/72514247/105835809-aee5be00-600f-11eb-87f5-2caeeeb1d6ee.png)
 
