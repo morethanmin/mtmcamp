@@ -19,9 +19,9 @@ Node JS를 배우며 진행한 첫 개인 토이프로젝트 입니다. Camping 
 ![image](https://user-images.githubusercontent.com/72514247/105837022-6b8c4f00-6011-11eb-8869-5f05dca7cec1.png)
 
 
-MVC 디자인 패턴을 적용하여 좀 더 생산적인 코드 작성을 노력하였다.
+MVC 디자인 패턴을 적용하여 좀 더 생산적인 코드 작성을 노력하였습니다.
 
-Mongo Injection, XSS(Cross Site Scripting) 같은 일반적인 보안문제에 대응하여 제작하였다. 
+Mongo Injection, XSS(Cross Site Scripting) 같은 일반적인 보안문제에 대응하여 제작했습니다.
 
 ### Front
 
