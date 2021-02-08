@@ -1,7 +1,29 @@
 # MTMCamp
-Express를 배우며 진행한 첫 개인 토이프로젝트 입니다. Camping Site Sharing ,Review site를 목적으로 제작되었습니다. 프론트부터 백엔드까지, 그리고 DB와 간단한 Security와 Error handling, 배포까지 전부 다루며 진행하였습니다.
+my first toy project Camping review site with map cluster
+
 
 ![image](https://user-images.githubusercontent.com/72514247/105835809-aee5be00-600f-11eb-87f5-2caeeeb1d6ee.png)
+
+### Front
+
+- Bootstrap
+- EJS (Templete engine)
+
+### Back
+
+- NODEJS
+- Express
+- Mongoose (ODM)
+
+### Server & DB
+
+- Mongo DB
+- Cloudinary
+- Heroku
+
+### link
+
+https://more-than-min-camp.herokuapp.com/
 
 
 ## Features
@@ -23,25 +45,3 @@ MVC 디자인 패턴을 적용하여 좀 더 생산적인 코드 작성을 노�
 
 Mongo Injection, XSS(Cross Site Scripting) 같은 일반적인 보안문제에 대응하여 제작했습니다.
 
-### Front
-
-- HTML
-- CSS
-- JavaScript
-- EJS (Templete engine)
-
-### Back
-
-- NODEJS
-- Express
-- Mongoose
-
-### Server & DB
-
-- Mongo DB
-- Cloudinary
-- Heroku
-
-### link
-
-https://more-than-min-camp.herokuapp.com/
