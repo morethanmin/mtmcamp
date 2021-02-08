@@ -12,7 +12,7 @@ Express를 배우며 진행한 첫 개인 토이프로젝트 입니다. Camping 
 
 - Login, Logout session
 - Search 기능 구현
-- CRUD 구현 (Restful api)
+- CRUD 구현
 - cloudinary를 이용한 image upload
 - user 게시글 작성, 수정 및 삭제 권한 부여
 
