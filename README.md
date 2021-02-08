@@ -2,7 +2,7 @@
 my first toy project Camping review site with map cluster
 
 
-![image](https://user-images.githubusercontent.com/72514247/105835809-aee5be00-600f-11eb-87f5-2caeeeb1d6ee.png)
+![image](https://user-images.githubusercontent.com/72514247/105853932-96829d00-6029-11eb-872e-40cd8e44c8a3.png)
 
 ### Front
 
@@ -29,9 +29,6 @@ https://more-than-min-camp.herokuapp.com/
 ## Features
 
 - Map Box 를 이용한 Cluster Map
-
-![image](https://user-images.githubusercontent.com/72514247/105853932-96829d00-6029-11eb-872e-40cd8e44c8a3.png)
-
 - Login, Logout session
 - Search 기능 구현
 - CRUD 구현
