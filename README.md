@@ -31,12 +31,12 @@ https://more-than-min-camp.herokuapp.com/
 
 ## Features
 
-- Map Box 를 이용한 Cluster Map
-- Login, Logout session
-- Search 기능 구현
-- CRUD 구현
-- cloudinary를 이용한 image upload
-- user 게시글 작성, 수정 및 삭제 권한 부여
+- Map Box api를 이용한 지도에 데이터기반으로 캠핑 정보를 표시하였습니다.
+- 세션 기반 인증을 통한 Login, Logout기능 구현
+- 간단한 Search 기능 구현
+- 게시판 글쓰기, 수정하기, 지우기 구현
+- multi image uploading (with cloudinary)
+- 별점기반 리뷰 작성 삭제 기능
 
 ![image](https://user-images.githubusercontent.com/72514247/105837022-6b8c4f00-6011-11eb-8869-5f05dca7cec1.png)
 
