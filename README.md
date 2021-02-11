@@ -21,7 +21,7 @@ my first toy project Camping review site with map cluster
 
 ### link
 
-https://more-than-min-camp.herokuapp.com/
+https://morethanmin-camp.herokuapp.com/
 
 
 ## Features
