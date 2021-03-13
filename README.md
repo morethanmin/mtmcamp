@@ -13,7 +13,7 @@ my first toy project Camping review site with map cluster
 
 ### Back
 
-`NODEJS` `Express` `Mongoose (ODM)`
+`NodeJS` `Express` `Mongoose (ODM)`
 
 ### Server & DB
 
