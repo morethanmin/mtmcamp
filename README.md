@@ -1,6 +1,10 @@
 # MTMCamp
 
-캠핑장을 리뷰하는 게시판 형식의 사이트
+> 캠핑장을 리뷰하는 게시판 형식의 사이트
+>
+> express 및 backend를 이해하기 위해 만든 토이프로젝트
+
+
 
 ![image](https://user-images.githubusercontent.com/72514247/105853932-96829d00-6029-11eb-872e-40cd8e44c8a3.png)
 
